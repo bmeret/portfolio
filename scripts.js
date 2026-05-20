@@ -6,7 +6,7 @@ document.getElementById("sendMail").addEventListener("click", function () {
     const message = encodeURIComponent(document.getElementById("message").value);
 
     const destinataire = "brennanmeret@gmail.com";
-    const sujet = encodeURIComponent("Contact depuis le site");
+    const sujet = encodeURIComponent("Contact depuis le portfolio");
 
     const body = `Nom Prénom : ${nom}%0AEmail : ${emailUser}%0AObjet : ${objet}%0A%0AMessage :%0A${message}`;
 
